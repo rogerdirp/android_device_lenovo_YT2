@@ -252,8 +252,6 @@ lib/libRSDriver_intel7.so
 lib/libcoreuclient.so
 lib/libcoreuinterface.so
 lib/libcoreuservice.so
-lib/libdrm.so
-lib/libdrm_intel.so
 lib/libgrallocclient.so
 lib/libgrallocgmm.so
 lib/libgsmgr.so
@@ -262,7 +260,6 @@ lib/libhwcwidi.so
 lib/libigdusc.so
 lib/libivp.so
 lib/libmultidisplay.so
-lib/libpciaccess.so
 lib/libskuwa.so
 lib/libvpp_setting.so
 

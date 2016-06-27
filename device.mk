@@ -190,10 +190,10 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += hwcomposer.baytrail
 
 # libdrm
-#PRODUCT_PACKAGES += \
-#    libdrm \
-#    dristat \
-#    drmstat
+PRODUCT_PACKAGES += \
+    libdrm \
+    libdrm_intel \
+    libpciaccess
 
 # Permissions
 PRODUCT_COPY_FILES += \
