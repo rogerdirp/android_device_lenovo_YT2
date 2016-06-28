@@ -168,7 +168,6 @@ WIFI_DRIVER_MODULE_NAME     := "bcm43241"
 WIFI_DRIVER_FW_PATH_PARAM   := "/sys/module/bcm43241/parameters/firmware_path"
 WIFI_DRIVER_FW_PATH_STA     := "/system/etc/firmware/fw_bcmdhd.bin_43241_b4"
 WIFI_DRIVER_MODULE_PATH     := "/system/lib/modules/bcm43241.ko"
-WIFI_DRIVER_MODULE_ARG      := "/system/etc/firmware/fw_bcmdhd.bin_43241_b4 nvram_path=/system/etc/wifi/bcmdhd_aob.cal_43241_b4"
 
 # inherit from the proprietary version
 -include vendor/lenovo/YT2/BoardConfigVendor.mk
