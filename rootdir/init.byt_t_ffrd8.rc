@@ -212,8 +212,8 @@ on post-fs
     chown system system /sys/bus/i2c/devices/5-001d/magnetometer/pollrate_ms
 
     # al3320 light sensor
-    chown system system /sys/class/input/input3/mode
-    chown system system /sys/class/input/input3/als_poll_delay
+    chown system system /sys/class/input/input4/mode
+    chown system system /sys/class/input/input4/als_poll_delay
 
     # Permissions for Vibrator
     chown system system /sys/class/pmicvibradirect/vibrator/vibrator
